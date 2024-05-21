@@ -6,7 +6,7 @@ public class InputArea {
 	int length;
 	int breadth;
 	
-	//create constructor 
+	//create parameterized constructor 
 	public InputArea(int length, int breadth) {
 		this.length = length;
 		this.breadth = breadth;

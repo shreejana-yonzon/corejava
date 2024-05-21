@@ -19,7 +19,7 @@ public class AverageTest {
 		double num3 = sc.nextDouble();
 		
 		//create object 
-		Average avg = new Average();
+		Average avg = new Average(num1, num2, num3);
 		avg.calAvg();
 		
 	}

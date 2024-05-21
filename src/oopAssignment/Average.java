@@ -7,6 +7,13 @@ public class Average {
 	double num2;
 	double num3;
 	
+	//default constructor
+	public Average(double num1, double num2, double num3){
+		this.num1 = num1;
+		this.num2 = num2;
+		this.num3 = num3;
+	}
+	
 	//create method
 	void calAvg() {
 		
